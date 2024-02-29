@@ -16,3 +16,9 @@ body {
   height: 100vh;
   text-align: center;
 }
+
+.container {
+  padding: 56px;
+  background: #e7e7e780;
+  border-radius: 10px;
+}

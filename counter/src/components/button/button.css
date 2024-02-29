@@ -2,14 +2,19 @@ button {
     font-family: Oswald;
     font-size: 16px;
     font-weight: 500;
-    color: aliceblue;
-    background: #e719e7;
+    color: #fff;
+    background: #b362ce;
     letter-spacing: 1px;
     outline: none;
     border: none;
     padding: 12px 28px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background .2s ease-out;
+}
+
+button:hover {
+    background: #b814b8;
 }
 
 .button-grid {
