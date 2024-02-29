@@ -1,5 +1,18 @@
-
-
 button {
-    background: #000;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+    background: #e719e7;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-grid {
+    display: flex;
+    gap: 32px;
 }
